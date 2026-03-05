@@ -52,6 +52,6 @@ The architecture is designed so that adopting one module delivers immediate valu
 | Stage | Notebook | Key Capabilities |
 |---|---|---|
 | Collect | `genie-delta-incremental.py` | MLflow traces with spans (CHAIN → RETRIEVER → TOOL → LLM) |
-| Evaluate | `genie-labeling-with-judges.py` | `mlflow.genai.evaluate()`, judges, `@scorer`, labeling sessions, Review App, `judge.align()` |
+| Evaluate | `genie-labeling-with-judges.py` | `mlflow.genai.evaluate()`, judges, `@scorer`, labeling sessions, Review App |
 | Optimize | `genie-room-analyzer-v2.py` | `@mlflow.trace`, Prompt Registry, auto-apply via Genie API |
 | Remember | `genie-vector-search-lakebase.py` | Vector Search, Lakebase synced tables for long-term memory |
